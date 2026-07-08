@@ -47,7 +47,9 @@ Character offsets are zero-based and end-exclusive.
 
 `Context turns` is the number of turns in the JSON-encoded `context` field. `Referent mentions` is the number of annotated context-side referent spans in `referent_info`.
 
-| File | Context turns, min / median / mean / max | Referent mentions, min / median / mean / max | Rows with >1 referent mention |
+Values are reported as **min / median / mean / max**.
+
+| File | Context turns | Referent mentions | >1 referent mention |
 |---|---:|---:|---:|
 | `df-valid-coref.csv` | 1 / 4 / 4.41 / 9 | 1 / 2 / 2.09 / 7 | 257 (56.4%) |
 | `df-test-coref.csv` | 1 / 3 / 3.56 / 9 | 1 / 1 / 1.70 / 8 | 118 (37.5%) |

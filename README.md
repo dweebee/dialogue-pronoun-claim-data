@@ -64,6 +64,9 @@ Values are reported as **min / median / mean / max**.
 - Some target texts may already contain an explicit mention of the annotated referent.
 - The four files should not be treated as mutually exclusive benchmark splits without checking for overlaps.
 
-## Citation
+### Original Datasets and Papers
 
-If you use this data, please cite the associated paper and the original DialFact and FaithDial papers.
+This release contains annotations created based on data from the following datasets:
+
+- [DialFact: A Benchmark for Fact-Checking in Dialogue (ACL 2022)](https://aclanthology.org/2022.acl-long.263/)
+- [FaithDial: A Faithful Benchmark for Information-Seeking Dialogue (TACL 2022)](https://aclanthology.org/2022.tacl-1.84/)
